@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(./img/deleted_nrrjq1.jpg);
+}
+
+.dangky h1 {
+    text-align: center;
+    margin: 2vw;
+    color: snow;
+}
+
+.dangky {
+    border: 3px solid snow;
+    width: 40%;
+    margin: 0 auto;
+    margin: 2vw auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0 1vw 1vw;
+    background-color: transparent;
+    backdrop-filter: blur(3px);
+    color: snow;
+    box-shadow: 25px 0px 20px black;
+    border-radius: 20px;
+}
+
+.dangky__text {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5vw;
+}
+
+.dangky__input--text {
+    padding: 0.5vw;
+    background-color: transparent;
+    border: 1px solid snow;
+    outline: 1px solid snow;
+    color: white;
+}
+
+.dangky__input--text::placeholder {
+    color: snow;
+    opacity: 0.8;
+    font-weight: bold;
+}
+
+.dangky__input--textarea {
+    height: 10vw;
+    background-color: transparent;
+    border: 1px solid snow;
+    outline: 1px solid snow;
+    color: white;
+}
+
+.dangky__input--textarea::placeholder {
+    color: snow;
+    opacity: 0.8;
+    font-weight: bold;
+}
+
+.dangky__btn {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.dangky__input--select {
+    padding: 0.5vw;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    opacity: 0.8;
+    border: 1px solid snow;
+    outline: 1px solid snow;
+}
+
+.dangky__input--select option {
+    background-color: snow;
+    color: black;
+    font-weight: bold;
+}
+
+.dangky__btn input {
+    padding: 0.5vw;
+    min-width: 90px;
+    background-color: coral;
+    border: none;
+    color: snow;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: ease 0.25s;
+    cursor: pointer;
+}
+
+.dangky__btn input:hover {
+    opacity: 0.8;
+}
+
+.dangky__input--select {
+    cursor: pointer;
+}
+
+.dangky__gioitinh input,
+.dangky__sothich input {
+    cursor: pointer;
+}
+
+.dangky__gioitinh fieldset,
+.dangky__sothich fieldset {
+    border: 2px solid snow;
+}
+
+.dangky li {
+    margin-bottom: 0.5vw;
+}

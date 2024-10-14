@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Câu 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="main.js"></script>
+    <div class="dangky">
+        <h1>ĐĂNG KÝ THÀNH VIÊN</h1>
+        <form name="frDangKy">
+            <div class="dangky__text">
+                <label>Mã sinh viên</label>
+                <input type="text" placeholder="Nhập mã sinh viên" name="masv" class="dangky__input--text">
+            </div>
+            <div class="dangky__text">
+                <label>Họ và tên</label>
+                <input type="text" placeholder="Nhập họ tên" name="hoten" class="dangky__input--text">
+            </div>
+            <div class="dangky__text">
+                <label>Địa chỉ email</label>
+                <input type="email" placeholder="Nhập địa chỉ email" name="email" class="dangky__input--text">
+            </div>
+            <div class="dangky__gioitinh">
+                <fieldset>
+                    <legend>Giới tính</legend>
+                    <input type="radio" name="gioitinh" value="Nam"><b>Nam</b>
+                    <input type="radio" name="gioitinh" value="Nữ"><b>Nữ</b>
+                </fieldset>
+            </div>
+            <div class="dangky__sothich">
+                <fieldset>
+                    <legend>Sở thích</legend>
+                    <input type="checkbox" id="st" name="sothich" value="Đọc sách"><b>Đọc sách</b>
+                    <input type="checkbox" id="st" name="sothich" value="Du lịch"><b>Du lịch</b>
+                    <input type="checkbox" id="st" name="sothich" value="Ẩm thực"><b>Ẩm thực</b>
+                    <input type="checkbox" id="st" name="sothich" value="Âm nhạc"><b>Âm nhạc</b>
+                    <input type="checkbox" id="st" name="sothich" value="Khác"><b>Khác</b>
+                </fieldset>
+            </div>
+            <div class="dangky__text">
+                <label>Quốc tịch</label>
+                <select name="quoctich" class="dangky__input--select">
+                    <option value="chonquoctich">Chọn quốc tịch</option>
+                    <option value="Việt Nam">Việt Nam</option>
+                    <option value="Nhật Bản">Nhật Bản</option>
+                    <option value="Hoa Kỳ">Hoa Kỳ</option>
+                </select>
+            </div>
+            <div class="dangky__text">
+                <label>Ghi chú</label>
+                <textarea name="ghichu" class="dangky__input--textarea" placeholder="Nhập nội dung ghi chú"></textarea>
+            </div>
+            <div class="dangky__btn">
+                <input type="button" value="Đăng ký" onclick="kiemtra()">
+                <input type="reset" value="Nhập lại">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
